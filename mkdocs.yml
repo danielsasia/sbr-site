@@ -4,3 +4,6 @@ theme:
 
 nav:
   - Inicio: index.md
+
+extra_assets:
+  - .well-known/security.txt
