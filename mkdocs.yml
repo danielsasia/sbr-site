@@ -10,7 +10,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/tu-perfil
     - icon: fontawesome/solid/envelope
-      link: mailto:tu-correo@securitybyreason.org
+      link: mailto:info@securitybyreason.org
 
 extra_assets:
   - .well-known/security.txt
