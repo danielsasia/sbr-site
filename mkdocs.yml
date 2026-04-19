@@ -1,0 +1,9 @@
+site_name: Security By Reason
+theme:
+  name: material
+  language: es
+  palette:
+    scheme: slate
+    primary: indigo
+markdown_extensions:
+  - pymdownx.superfences # Para los gráficos Mermaid
