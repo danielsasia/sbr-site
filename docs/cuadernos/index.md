@@ -13,7 +13,7 @@ No son resúmenes de noticias. Son intentos de pensar mejor problemas reales cua
 
 ## Primera nota
 
-### [Cuando compliance reemplaza criterio](compliance-vs-criterio.md)
+### [Cuando compliance reemplaza criterio](cuadernos/compliance-vs-criterio.md)
 
 Qué ocurre cuando una organización confunde cumplimiento con capacidad real de decidir.
 
