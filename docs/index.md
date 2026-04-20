@@ -5,7 +5,6 @@ hide:
 ---
 
 # Una defensa sólida resiste incidentes.<br>*Una defensa legítima resiste preguntas.*
-Un modelo de defensa digital para organizaciones que deben decidir con criterio.
 
 En una revisión institucional, un organismo de control formuló al equipo directivo de un ministerio una pregunta que nadie esperaba. No era técnica. No era sobre incidentes ni sobre brechas. Era: **¿por qué eligieron este mecanismo de monitoreo y no otro?**
 
