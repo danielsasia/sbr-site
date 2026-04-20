@@ -1,17 +1,28 @@
+site_name: "Security By Reason"
+site_url: "https://securitybyreason.org"
+site_author: "Daniel Sasia"
+site_description: "Un modelo para decidir con criterio cuando la técnica ya no alcanza."
+
 theme:
   name: material
   language: es
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.footer
     - navigation.top
     - content.code.copy
   palette:
-    primary: black
-    accent: grey
+    primary: indigo
+    accent: indigo
+  # ESTO ELIMINA LOS CRÉDITOS DE MKDOCS DEL PIE DE PÁGINA
+  font: false 
+  icon:
+    repo: fontawesome/brands/github
+  # Oculta el mensaje "Made with..."
+  hide:
+    - footer.hidden 
 
-copyright: 'Copyright &copy; 2026 Security By Reason'
+copyright: "Copyright © 2026 Security By Reason"
 
 nav:
   - Inicio: index.md
@@ -27,6 +38,7 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
+# IMPORTANTE: No olvides esta línea para tu security.txt
 include_dot_files: true
 
 extra:
