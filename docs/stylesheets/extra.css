@@ -1,0 +1,11 @@
+/* Aplicar versalitas al título en la barra de navegación */
+.md-header__topic {
+  font-variant: small-caps;
+  letter-spacing: 0.05em; /* Un poquito de aire entre letras queda mejor */
+  font-weight: 500;
+}
+
+/* Si también lo querés en el pie de página (Copyright) */
+.md-copyright {
+  font-variant: small-caps;
+}
