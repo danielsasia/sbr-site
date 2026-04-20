@@ -18,6 +18,9 @@ theme:
     text: DM Sans
     code: DM Mono
 
+markdown_extensions:
+  - attr_list
+
 copyright: "© 2026 Security By Reason®"
 
 nav:
