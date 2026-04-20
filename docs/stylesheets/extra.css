@@ -86,3 +86,22 @@ blockquote {
   font-size: 1.1rem !important;
   font-style: italic !important;
 }
+
+
+.md-header {
+  background-color: #060d1f !important;
+}
+
+.md-tabs__link {
+  opacity: 1 !important;
+  color: rgba(232,234,240,0.5) !important;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #7b9fd4 !important;
+}
+
+.md-header__title {
+  color: #7b9fd4 !important;
+}
