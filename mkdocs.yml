@@ -6,7 +6,7 @@ site_description: "Un modelo para decidir con criterio cuando la técnica ya no 
 theme:
   name: material
   language: es
-  logo: assets/logo.svg
+  logo: assets/isotipo.png
   favicon: assets/favicon.png
 
   features:
