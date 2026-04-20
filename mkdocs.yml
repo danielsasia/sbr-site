@@ -6,7 +6,6 @@ site_description: "Un modelo para decidir con criterio cuando la técnica ya no 
 theme:
   name: material
   language: es
-  custom_dir: overrides
 
   features:
     - navigation.tabs
