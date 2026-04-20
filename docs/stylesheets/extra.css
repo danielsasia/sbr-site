@@ -43,9 +43,9 @@ body,
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
   display: block !important;
-  height: 42px !important;
+  height: 38px !important;
   width: auto !important;
-  max-height: 42px !important;
+  max-height: 38px !important;
 }
 
 .md-header__title,
@@ -59,7 +59,7 @@ body,
   flex-direction: column !important;
   align-items: flex-start !important;
   justify-content: center !important;
-  line-height: 1.04 !important;
+  line-height: 1.02 !important;
   margin-left: 0 !important;
 }
 
@@ -68,9 +68,9 @@ body,
 }
 
 .md-header__topic:first-child {
-  font-size: 22px !important;
+  font-size: 18px !important;
   font-weight: 600 !important;
-  letter-spacing: 0.11em !important;
+  letter-spacing: 0.04em !important;
   text-transform: uppercase !important;
   line-height: 1.02 !important;
 }
@@ -79,13 +79,13 @@ body,
   content: "MODELO DE DEFENSA DIGITAL";
   display: block;
   font-family: 'DM Sans', sans-serif !important;
-  font-size: 14px !important;
+  font-size: 11px !important;
   font-weight: 400 !important;
-  letter-spacing: 0.16em !important;
+  letter-spacing: 0.08em !important;
   text-transform: uppercase !important;
   color: rgba(232,234,240,0.82) !important;
-  margin-top: 5px !important;
-  line-height: 1.08 !important;
+  margin-top: 3px !important;
+  line-height: 1.05 !important;
 }
 
 /* TABS */
@@ -98,7 +98,7 @@ body,
 .md-tabs__link {
   font-family: 'DM Sans', sans-serif !important;
   font-size: 13px !important;
-  letter-spacing: 0.03em !important;
+  letter-spacing: 0.01em !important;
   color: rgba(232,234,240,0.60) !important;
   opacity: 1 !important;
 }
@@ -228,11 +228,11 @@ body,
 
 @media screen and (max-width: 1024px) {
   .md-header__topic:first-child {
-    font-size: 19px !important;
+    font-size: 16px !important;
   }
 
   .md-header__title::after {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   .md-main__inner .md-content h1,
@@ -248,13 +248,13 @@ body,
 
 @media screen and (max-width: 768px) {
   .md-header__topic:first-child {
-    font-size: 16px !important;
-    letter-spacing: 0.08em !important;
+    font-size: 14px !important;
+    letter-spacing: 0.03em !important;
   }
 
   .md-header__title::after {
-    font-size: 10px !important;
-    letter-spacing: 0.12em !important;
+    font-size: 9px !important;
+    letter-spacing: 0.06em !important;
   }
 
   .md-main__inner .md-content h1,
@@ -275,13 +275,13 @@ body,
 
 @media screen and (max-width: 480px) {
   .md-header__topic:first-child {
-    font-size: 14px !important;
-    letter-spacing: 0.06em !important;
+    font-size: 13px !important;
+    letter-spacing: 0.02em !important;
   }
 
   .md-header__title::after {
     font-size: 8px !important;
-    letter-spacing: 0.10em !important;
+    letter-spacing: 0.04em !important;
     margin-top: 2px !important;
   }
 
