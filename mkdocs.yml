@@ -11,12 +11,12 @@ theme:
     - navigation.sections
     - navigation.top
   palette:
-    scheme: default
-    primary: indigo
-    accent: indigo
+    scheme: slate
+    primary: custom
+    accent: custom
   font:
-    text: Inter
-    code: Roboto Mono
+    text: DM Sans
+    code: DM Mono
 
 copyright: "© 2026 Security By Reason®"
 
