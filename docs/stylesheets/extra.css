@@ -36,16 +36,16 @@ body,
 .md-header__button.md-logo {
   display: flex !important;
   align-items: center !important;
-  margin-right: 0.55rem !important;
+  margin-right: 0.35rem !important;
   padding: 0 !important;
 }
 
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
   display: block !important;
-  height: 38px !important;
+  height: 24px !important;
   width: auto !important;
-  max-height: 38px !important;
+  max-height: 24px !important;
 }
 
 .md-header__title,
@@ -59,7 +59,7 @@ body,
   flex-direction: column !important;
   align-items: flex-start !important;
   justify-content: center !important;
-  line-height: 1.02 !important;
+  line-height: 1 !important;
   margin-left: 0 !important;
 }
 
@@ -68,24 +68,24 @@ body,
 }
 
 .md-header__topic:first-child {
-  font-size: 18px !important;
+  font-size: 13px !important;
   font-weight: 600 !important;
   letter-spacing: 0.04em !important;
   text-transform: uppercase !important;
-  line-height: 1.02 !important;
+  line-height: 1 !important;
 }
 
 .md-header__title::after {
   content: "MODELO DE DEFENSA DIGITAL";
   display: block;
   font-family: 'DM Sans', sans-serif !important;
-  font-size: 11px !important;
+  font-size: 7px !important;
   font-weight: 400 !important;
   letter-spacing: 0.08em !important;
   text-transform: uppercase !important;
   color: rgba(232,234,240,0.82) !important;
   margin-top: 3px !important;
-  line-height: 1.05 !important;
+  line-height: 1 !important;
 }
 
 /* TABS */
@@ -97,7 +97,7 @@ body,
 
 .md-tabs__link {
   font-family: 'DM Sans', sans-serif !important;
-  font-size: 13px !important;
+  font-size: 12px !important;
   letter-spacing: 0.01em !important;
   color: rgba(232,234,240,0.60) !important;
   opacity: 1 !important;
@@ -131,9 +131,9 @@ body,
 .md-typeset {
   font-family: 'DM Sans', sans-serif !important;
   font-weight: 300 !important;
-  font-size: 1.04rem !important;
+  font-size: 0.98rem !important;
   color: rgba(232,234,240,0.85) !important;
-  line-height: 1.75 !important;
+  line-height: 1.72 !important;
 }
 
 .md-typeset h1,
@@ -145,25 +145,25 @@ body,
 }
 
 .md-typeset h1 {
-  font-size: 1.9rem !important;
-  line-height: 1.16 !important;
+  font-size: 1.55rem !important;
+  line-height: 1.14 !important;
   letter-spacing: -0.01em !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.9rem !important;
 }
 
 .md-main__inner .md-content h1 {
-  font-size: 2rem !important;
-  line-height: 1.16 !important;
+  font-size: 1.6rem !important;
+  line-height: 1.14 !important;
 }
 
 .md-typeset h2 {
-  font-size: 1.18rem !important;
-  line-height: 1.24 !important;
+  font-size: 1.02rem !important;
+  line-height: 1.22 !important;
 }
 
 .md-typeset h3 {
-  font-size: 1rem !important;
-  line-height: 1.25 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.24 !important;
 }
 
 .md-typeset a,
@@ -182,7 +182,7 @@ body,
   font-family: 'Playfair Display', serif !important;
   border-left: 2px solid #7b9fd4 !important;
   color: rgba(232,234,240,0.85) !important;
-  font-size: 1.05rem !important;
+  font-size: 1rem !important;
   font-style: italic !important;
 }
 
@@ -228,16 +228,16 @@ body,
 
 @media screen and (max-width: 1024px) {
   .md-header__topic:first-child {
-    font-size: 16px !important;
+    font-size: 12px !important;
   }
 
   .md-header__title::after {
-    font-size: 10px !important;
+    font-size: 6.5px !important;
   }
 
   .md-main__inner .md-content h1,
   .md-typeset h1 {
-    font-size: 1.8rem !important;
+    font-size: 1.45rem !important;
   }
 
   .md-content__inner {
@@ -248,23 +248,23 @@ body,
 
 @media screen and (max-width: 768px) {
   .md-header__topic:first-child {
-    font-size: 14px !important;
+    font-size: 11px !important;
     letter-spacing: 0.03em !important;
   }
 
   .md-header__title::after {
-    font-size: 9px !important;
+    font-size: 6px !important;
     letter-spacing: 0.06em !important;
   }
 
   .md-main__inner .md-content h1,
   .md-typeset h1 {
-    font-size: 1.6rem !important;
-    line-height: 1.18 !important;
+    font-size: 1.34rem !important;
+    line-height: 1.16 !important;
   }
 
   .md-typeset h2 {
-    font-size: 1.08rem !important;
+    font-size: 0.98rem !important;
   }
 
   .md-content__inner {
@@ -274,25 +274,31 @@ body,
 }
 
 @media screen and (max-width: 480px) {
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg {
+    height: 20px !important;
+    max-height: 20px !important;
+  }
+
   .md-header__topic:first-child {
-    font-size: 13px !important;
+    font-size: 10px !important;
     letter-spacing: 0.02em !important;
   }
 
   .md-header__title::after {
-    font-size: 8px !important;
+    font-size: 5.5px !important;
     letter-spacing: 0.04em !important;
     margin-top: 2px !important;
   }
 
   .md-main__inner .md-content h1,
   .md-typeset h1 {
-    font-size: 1.4rem !important;
-    line-height: 1.20 !important;
+    font-size: 1.22rem !important;
+    line-height: 1.18 !important;
   }
 
   .md-typeset h2 {
-    font-size: 1rem !important;
+    font-size: 0.95rem !important;
   }
 
   .md-content__inner {
