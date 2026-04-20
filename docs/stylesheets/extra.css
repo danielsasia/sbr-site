@@ -125,3 +125,20 @@ blockquote {
   font-size: 3rem;
   line-height: 1.15;
 }
+
+.brand-block {
+  line-height: 1.1;
+}
+
+.brand-title {
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+}
+
+.brand-subtitle {
+  font-size: 0.56rem;
+  letter-spacing: 0.18em;
+  opacity: 0.8;
+  margin-top: 2px;
+}
