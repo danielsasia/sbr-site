@@ -1,4 +1,4 @@
-site_name: "Security By Reason"
+site_name: "Security By Reason®"
 site_url: "https://securitybyreason.org"
 site_author: "Daniel Sasia"
 site_description: "Un modelo para decidir con criterio cuando la técnica ya no alcanza."
@@ -10,24 +10,20 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
-    - content.code.copy
   palette:
+    scheme: default
     primary: indigo
     accent: indigo
-  # ESTO ELIMINA LOS CRÉDITOS DE MKDOCS DEL PIE DE PÁGINA
-  font: false 
-  icon:
-    repo: fontawesome/brands/github
-  # Oculta el mensaje "Made with..."
-  hide:
-    - footer.hidden 
+  font:
+    text: Inter
+    code: Roboto Mono
 
-copyright: "Copyright © 2026 Security By Reason"
+copyright: "© 2026 Security By Reason®"
 
 nav:
   - Inicio: index.md
   - El modelo:
-      - Qué es Security By Reason: modelo/intro.md
+      - Qué es SBR: modelo/intro.md
       - Los cinco dominios: modelo/dominios.md
       - Cómo funciona: modelo/como-funciona.md
       - Madurez institucional: modelo/madurez.md
@@ -38,12 +34,9 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
-# IMPORTANTE: No olvides esta línea para tu security.txt
-include_dot_files: true
-
 extra:
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/tu-perfil
+      link: https://www.linkedin.com/in/danielsasia
     - icon: fontawesome/solid/envelope
       link: mailto:info@securitybyreason.org
