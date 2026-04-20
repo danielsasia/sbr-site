@@ -157,3 +157,22 @@ body,
   font-size: 3rem !important;
   line-height: 1.15 !important;
 }
+
+.md-header__title {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  line-height: 1.05 !important;
+}
+
+.md-header__title::after {
+  content: "MODELO DE DEFENSA DIGITAL";
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(232,234,240,0.72);
+  margin-top: 2px;
+}
