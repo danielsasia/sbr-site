@@ -26,12 +26,15 @@ copyright: "© 2026 Security By Reason®"
 nav:
   - Inicio: index.md
   - El modelo:
-      - Qué es SBR: modelo/intro.md
+      - Qué es Security By Reason: modelo/intro.md
       - Los cinco dominios: modelo/dominios.md
       - Cómo funciona: modelo/como-funciona.md
       - Madurez institucional: modelo/madurez.md
   - El libro: libro.md
-  - Sobre Daniel Sasia: autor.md
+  - Cuadernos SBR:
+      - Introducción: cuadernos/index.md
+      - Cuando compliance reemplaza criterio: cuadernos/compliance-vs-criterio.md
+  - Sobre el autor: autor.md
   - Contacto: contacto.md
 
 extra_css:
