@@ -89,3 +89,26 @@ blockquote {
   font-size: 1.1rem !important;
   font-style: italic !important;
 }
+
+.md-footer {
+  background: #060d1f !important;
+  border-top: 0.5px solid rgba(255,255,255,0.08) !important;
+}
+
+.md-footer-meta {
+  background: #060d1f !important;
+}
+
+.md-footer__inner {
+  background: #060d1f !important;
+}
+
+.md-social {
+  display: none !important;
+}
+
+.md-footer-copyright {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 12px !important;
+  color: rgba(232,234,240,0.2) !important;
+}
