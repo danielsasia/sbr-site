@@ -33,6 +33,11 @@ body,
   color: #e8eaf0 !important;
 }
 
+/* OCULTA TEMPORALMENTE EL LOGO ROTO */
+.md-header__button.md-logo {
+  display: none !important;
+}
+
 .md-header__title,
 .md-header__title * {
   font-family: 'DM Sans', sans-serif !important;
@@ -45,7 +50,7 @@ body,
   align-items: flex-start !important;
   justify-content: center !important;
   line-height: 1.04 !important;
-  margin-left: 8px !important;
+  margin-left: 0 !important;
 }
 
 .md-header__ellipsis {
@@ -129,17 +134,17 @@ body,
   color: #e8eaf0 !important;
 }
 
-/* TITULO PRINCIPAL DEL CONTENIDO: MÁS CHICO */
+/* TITULO PRINCIPAL DEL CONTENIDO: APENAS MÁS CHICO */
 
 .md-typeset h1 {
-  font-size: 2rem !important;
+  font-size: 1.9rem !important;
   line-height: 1.16 !important;
   letter-spacing: -0.01em !important;
   margin-bottom: 1rem !important;
 }
 
 .md-main__inner .md-content h1 {
-  font-size: 2.2rem !important;
+  font-size: 2rem !important;
   line-height: 1.16 !important;
 }
 
@@ -226,7 +231,7 @@ body,
 
   .md-main__inner .md-content h1,
   .md-typeset h1 {
-    font-size: 1.9rem !important;
+    font-size: 1.8rem !important;
   }
 
   .md-content__inner {
@@ -248,7 +253,7 @@ body,
 
   .md-main__inner .md-content h1,
   .md-typeset h1 {
-    font-size: 1.65rem !important;
+    font-size: 1.6rem !important;
     line-height: 1.18 !important;
   }
 
@@ -276,7 +281,7 @@ body,
 
   .md-main__inner .md-content h1,
   .md-typeset h1 {
-    font-size: 1.45rem !important;
+    font-size: 1.4rem !important;
     line-height: 1.20 !important;
   }
 
