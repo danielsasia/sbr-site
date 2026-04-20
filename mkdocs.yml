@@ -11,9 +11,8 @@ extra:
       link: https://www.linkedin.com/in/tu-perfil
     - icon: fontawesome/solid/envelope
       link: mailto:info@securitybyreason.org
-
-extra_assets:
-  - .well-known/security.txt
-
-extra:
+  # Esta línea es fundamental para que MkDocs no ignore archivos con punto
   copy_dot_files: true
+
+# Esta instrucción obliga a incluir la carpeta .well-known en la compilación
+include_dot_files: true
