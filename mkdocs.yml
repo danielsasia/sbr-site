@@ -1,8 +1,3 @@
-site_name: Security By Reason
-site_url: https://securitybyreason.org
-site_author: Daniel Sasia
-site_description: Consultoría en Seguridad de la Información y Gestión de Riesgos.
-
 theme:
   name: material
   language: es
@@ -10,38 +5,33 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.footer
+    - navigation.top
     - content.code.copy
   palette:
-    primary: indigo
-    accent: indigo
+    primary: black
+    accent: grey
 
-# Tu marca en el pie de página
 copyright: 'Copyright &copy; 2026 Security By Reason'
 
-# Estructura del sitio basada en tu modelo
 nav:
   - Inicio: index.md
-  - El Modelo:
-      - Introducción: modelo/intro.md
-      - Parte II - Implementación: 
-          - Estrategia: modelo/parte2-estrategia.md
-          - Ejecución: modelo/parte2-ejecucion.md
-      - Parte III - Gestión y Mejora:
-          - Monitoreo: modelo/parte3-monitoreo.md
-          - Optimización: modelo/parte3-optimizacion.md
-  - El Libro: libro.md
+  - El modelo:
+      - Qué es Security By Reason: modelo/intro.md
+      - Los cinco dominios: modelo/dominios.md
+      - Cómo funciona: modelo/como-funciona.md
+      - Madurez institucional: modelo/madurez.md
+  - El libro: libro.md
+  - Sobre Daniel Sasia: autor.md
   - Contacto: contacto.md
 
-# Carga del estilo para las fuentes versalitas
 extra_css:
   - stylesheets/extra.css
 
-# Vital para que funcione el /.well-known/security.txt
 include_dot_files: true
 
 extra:
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/tu-perfil # Cambiá esto por tu link real
+      link: https://www.linkedin.com/in/tu-perfil
     - icon: fontawesome/solid/envelope
       link: mailto:info@securitybyreason.org
