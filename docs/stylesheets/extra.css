@@ -9,7 +9,10 @@
   --md-accent-fg-color: #7b9fd4;
 }
 
-body, .md-main { background: #060d1f !important; }
+body,
+.md-main {
+  background: #060d1f !important;
+}
 
 .md-header {
   background: #060d1f !important;
@@ -45,7 +48,9 @@ body, .md-main { background: #060d1f !important; }
   color: #7b9fd4 !important;
 }
 
-.md-sidebar { background: #060d1f !important; }
+.md-sidebar {
+  background: #060d1f !important;
+}
 
 .md-nav__link {
   font-family: 'DM Sans', sans-serif !important;
@@ -64,8 +69,14 @@ h1, h2, h3 {
   color: #e8eaf0 !important;
 }
 
-h1 { font-size: 2.2rem !important; line-height: 1.25 !important; }
-h2 { font-size: 1.4rem !important; }
+h1 {
+  font-size: 2.2rem !important;
+  line-height: 1.25 !important;
+}
+
+h2 {
+  font-size: 1.4rem !important;
+}
 
 .md-typeset {
   font-family: 'DM Sans', sans-serif !important;
@@ -74,12 +85,12 @@ h2 { font-size: 1.4rem !important; }
   line-height: 1.75 !important;
 }
 
-a { color: #7b9fd4 !important; }
-a:hover { color: #e8eaf0 !important; }
+a {
+  color: #7b9fd4 !important;
+}
 
-.md-footer {
-  background: #060d1f !important;
-  border-top: 0.5px solid rgba(255,255,255,0.08) !important;
+a:hover {
+  color: #e8eaf0 !important;
 }
 
 blockquote {
@@ -90,17 +101,14 @@ blockquote {
   font-style: italic !important;
 }
 
-.md-footer {
-  background: #060d1f !important;
-  border-top: 0.5px solid rgba(255,255,255,0.08) !important;
-}
-
-.md-footer-meta {
-  background: #060d1f !important;
-}
-
+.md-footer,
+.md-footer-meta,
 .md-footer__inner {
   background: #060d1f !important;
+}
+
+.md-footer {
+  border-top: 0.5px solid rgba(255,255,255,0.08) !important;
 }
 
 .md-social {
@@ -118,7 +126,13 @@ blockquote {
 }
 
 .md-content {
-  max-width: 980px !important;
+  max-width: 100% !important;
+}
+
+.md-content__inner {
+  max-width: 100% !important;
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
 }
 
 .md-main__inner .md-content h1 {
@@ -141,14 +155,4 @@ blockquote {
   letter-spacing: 0.18em;
   opacity: 0.8;
   margin-top: 2px;
-}
-
-.md-content {
-  max-width: 100% !important;
-}
-
-.md-content__inner {
-  max-width: 100% !important;
-  padding-left: 3rem !important;
-  padding-right: 3rem !important;
 }
