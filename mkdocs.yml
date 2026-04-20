@@ -17,6 +17,7 @@ theme:
   font:
     text: DM Sans
     code: DM Mono
+custom_dir: overrides
 
 markdown_extensions:
   - attr_list
