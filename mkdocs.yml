@@ -12,8 +12,8 @@ theme:
     - navigation.top
   palette:
     scheme: slate
-    primary: custom
-    accent: custom
+    primary: black
+    accent: indigo
   font:
     text: DM Sans
     code: DM Mono
