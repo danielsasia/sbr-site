@@ -112,3 +112,16 @@ blockquote {
   font-size: 12px !important;
   color: rgba(232,234,240,0.2) !important;
 }
+
+.md-grid {
+  max-width: 1440px;
+}
+
+.md-content {
+  max-width: 980px !important;
+}
+
+.md-main__inner .md-content h1 {
+  font-size: 3rem;
+  line-height: 1.15;
+}
