@@ -141,18 +141,23 @@ blockquote {
 }
 
 .brand-block {
-  line-height: 1.1;
+  line-height: 1.05;
+  padding-top: 2px;
 }
 
 .brand-title {
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   letter-spacing: 0.12em;
   font-weight: 600;
 }
 
 .brand-subtitle {
-  font-size: 0.56rem;
+  font-size: 0.64rem;
   letter-spacing: 0.18em;
-  opacity: 0.8;
-  margin-top: 2px;
+  opacity: 0.82;
+  margin-top: 3px;
+}
+
+.md-header__topic {
+  display: none !important;
 }
