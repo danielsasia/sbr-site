@@ -18,6 +18,3 @@ No son resúmenes de noticias. Son intentos de pensar mejor problemas reales cua
 Qué ocurre cuando una organización confunde cumplimiento con capacidad real de decidir.
 
 ---
-
-[El modelo →](../modelo/intro.md){ .md-button }
-[El libro →](../libro.md){ .md-button .md-button--primary }
