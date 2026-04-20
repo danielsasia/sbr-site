@@ -35,8 +35,4 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
-  social:
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/danielsasia
-    - icon: fontawesome/solid/envelope
-      link: mailto:info@securitybyreason.org
+  generator: false
