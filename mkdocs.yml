@@ -6,18 +6,21 @@ site_description: "Un modelo para decidir con criterio cuando la técnica ya no 
 theme:
   name: material
   language: es
+  custom_dir: overrides
+
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+
   palette:
     scheme: slate
     primary: black
     accent: indigo
+
   font:
     text: DM Sans
     code: DM Mono
-custom_dir: overrides
 
 markdown_extensions:
   - attr_list
