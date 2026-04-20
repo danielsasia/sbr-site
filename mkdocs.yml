@@ -14,3 +14,6 @@ extra:
 
 extra_assets:
   - .well-known/security.txt
+
+extra:
+  copy_dot_files: true
