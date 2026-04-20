@@ -11,8 +11,6 @@ extra:
       link: https://www.linkedin.com/in/tu-perfil
     - icon: fontawesome/solid/envelope
       link: mailto:info@securitybyreason.org
-  # Esta línea es fundamental para que MkDocs no ignore archivos con punto
-  copy_dot_files: true
 
-# Esta instrucción obliga a incluir la carpeta .well-known en la compilación
+# ESTA LÍNEA ES LA ÚNICA QUE VALE PARA EL PUNTO
 include_dot_files: true
