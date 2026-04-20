@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono&display=swap');
 
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #060d1f;
+  --md-primary-bg-color: #e8eaf0;
+  --md-default-bg-color: #060d1f;
+  --md-default-fg-color: #e8eaf0;
+}
+
 :root {
   --md-primary-fg-color: #7b9fd4;
   --md-primary-bg-color: #060d1f;
