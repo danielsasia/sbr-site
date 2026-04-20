@@ -1,11 +1,89 @@
-/* Aplicar versalitas al título en la barra de navegación */
-.md-header__topic {
-  font-variant: small-caps;
-  letter-spacing: 0.05em; /* Un poquito de aire entre letras queda mejor */
-  font-weight: 500;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono&display=swap');
+
+:root {
+  --md-primary-fg-color: #7b9fd4;
+  --md-primary-bg-color: #060d1f;
+  --md-accent-fg-color: #7b9fd4;
+  --md-default-bg-color: #060d1f;
+  --md-default-fg-color: #e8eaf0;
+  --md-default-fg-color--light: rgba(232,234,240,0.55);
+  --md-default-fg-color--lighter: rgba(232,234,240,0.3);
+  --md-typeset-color: #e8eaf0;
+  --sbr-blue: #7b9fd4;
+  --sbr-bg: #060d1f;
+  --sbr-border: rgba(255,255,255,0.08);
 }
 
-/* Si también lo querés en el pie de página (Copyright) */
-.md-copyright {
-  font-variant: small-caps;
+body { background: #060d1f; }
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 400 !important;
+  color: #e8eaf0 !important;
+}
+
+h1 { font-size: 2.2rem !important; line-height: 1.25 !important; }
+h2 { font-size: 1.4rem !important; }
+
+.md-typeset {
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 300;
+  color: rgba(232,234,240,0.85);
+  line-height: 1.75;
+}
+
+.md-header {
+  background: #060d1f !important;
+  border-bottom: 0.5px solid rgba(255,255,255,0.08) !important;
+  box-shadow: none !important;
+}
+
+.md-header__title {
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 13px !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  color: #7b9fd4 !important;
+}
+
+.md-nav__title, .md-nav__item {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 13px !important;
+}
+
+.md-footer {
+  background: #060d1f !important;
+  border-top: 0.5px solid rgba(255,255,255,0.08) !important;
+}
+
+.md-tabs {
+  background: #060d1f !important;
+  border-bottom: 0.5px solid rgba(255,255,255,0.08) !important;
+}
+
+.md-tabs__link {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 13px !important;
+  letter-spacing: 0.04em !important;
+  color: rgba(232,234,240,0.5) !important;
+}
+
+.md-tabs__link--active {
+  color: #7b9fd4 !important;
+}
+
+a { color: #7b9fd4 !important; }
+a:hover { color: #e8eaf0 !important; }
+
+.md-sidebar {
+  background: #060d1f !important;
+}
+
+blockquote {
+  font-family: 'Playfair Display', serif !important;
+  border-left: 2px solid #7b9fd4 !important;
+  color: rgba(232,234,240,0.85) !important;
+  font-size: 1.1rem !important;
+  font-style: italic !important;
 }
