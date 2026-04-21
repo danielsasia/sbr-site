@@ -1,10 +1,10 @@
-# Contacto
-
 ---
 hide:
   - navigation
   - toc
 ---
+
+# Contacto
 
 Para conversar sobre el modelo, el libro o decisiones difíciles en organizaciones reales.
 
