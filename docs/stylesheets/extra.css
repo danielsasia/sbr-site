@@ -30,6 +30,9 @@ body,
 /* HEADER */
 
 .md-header{
+  position:sticky !important;
+  top:0 !important;
+  z-index:20 !important;
   background:#060d1f !important;
   box-shadow:none !important;
   border-bottom:1px solid rgba(255,255,255,.05) !important;
@@ -65,10 +68,12 @@ body,
   align-items:center !important;
   line-height:1 !important;
   margin-left:0 !important;
+  overflow:visible !important;
 }
 
 .md-header__ellipsis{
   max-width:none !important;
+  overflow:visible !important;
 }
 
 .md-header__topic:first-child{
@@ -83,6 +88,8 @@ body,
   color:#8ea9dc !important;
   line-height:1.05 !important;
   text-transform:none !important;
+  visibility:visible !important;
+  opacity:1 !important;
 }
 
 .md-header__topic:first-child::after{
@@ -116,10 +123,10 @@ body,
 /* MENU SUPERIOR */
 
 .md-tabs{
-  display:block !important;
   position:sticky !important;
   top:84px !important;
-  z-index:4 !important;
+  z-index:19 !important;
+  display:block !important;
   background:#060d1f !important;
   border-top:1px solid rgba(255,255,255,.05) !important;
   border-bottom:1px solid rgba(255,255,255,.05) !important;
@@ -141,6 +148,8 @@ body,
   font-weight:400 !important;
   color:rgba(217,220,227,.70) !important;
   margin-top:0 !important;
+  visibility:visible !important;
+  opacity:1 !important;
 }
 
 .md-tabs__link:hover,
