@@ -1,5 +1,11 @@
 # Contacto
 
+---
+hide:
+  - navigation
+  - toc
+---
+
 Para conversar sobre el modelo, el libro o decisiones difíciles en organizaciones reales.
 
 <div class="contact-links">
