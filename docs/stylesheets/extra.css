@@ -32,7 +32,7 @@ body,
 .md-header{
   position:sticky !important;
   top:0 !important;
-  z-index:20 !important;
+  z-index:30 !important;
   background:#060d1f !important;
   box-shadow:none !important;
   border-bottom:1px solid rgba(255,255,255,.05) !important;
@@ -88,8 +88,9 @@ body,
   color:#8ea9dc !important;
   line-height:1.05 !important;
   text-transform:none !important;
-  visibility:visible !important;
   opacity:1 !important;
+  visibility:visible !important;
+  transform:none !important;
 }
 
 .md-header__topic:first-child::after{
@@ -102,11 +103,25 @@ body,
   letter-spacing:.10em !important;
   color:rgba(217,220,227,.78) !important;
   line-height:1.1 !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  transform:none !important;
 }
 
 /* ocultar título de página en header */
 .md-header__topic + .md-header__topic{
   display:none !important;
+}
+
+/* anular comportamientos de Material al hacer scroll */
+.md-header,
+.md-header *,
+.md-header__topic,
+.md-header__title,
+.md-header__ellipsis{
+  opacity:1 !important;
+  visibility:visible !important;
+  transform:none !important;
 }
 
 /* BUSCADOR */
@@ -125,21 +140,30 @@ body,
 .md-tabs{
   position:sticky !important;
   top:84px !important;
-  z-index:19 !important;
+  z-index:29 !important;
   display:block !important;
   background:#060d1f !important;
   border-top:1px solid rgba(255,255,255,.05) !important;
   border-bottom:1px solid rgba(255,255,255,.05) !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  transform:none !important;
 }
 
 .md-tabs__inner{
   min-height:46px !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  transform:none !important;
 }
 
 .md-tabs__item{
   height:46px !important;
   display:flex !important;
   align-items:center !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  transform:none !important;
 }
 
 .md-tabs__link{
@@ -148,8 +172,9 @@ body,
   font-weight:400 !important;
   color:rgba(217,220,227,.70) !important;
   margin-top:0 !important;
-  visibility:visible !important;
   opacity:1 !important;
+  visibility:visible !important;
+  transform:none !important;
 }
 
 .md-tabs__link:hover,
@@ -164,7 +189,6 @@ body,
 }
 
 @media screen and (min-width:76.25em){
-
   [data-md-page="index"] .md-sidebar--primary,
   [data-md-page="libro"] .md-sidebar--primary,
   [data-md-page="autor"] .md-sidebar--primary,
