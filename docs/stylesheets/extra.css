@@ -133,18 +133,35 @@ html,body,
   color:#8ea9dc !important;
 }
 
-/* SIDEBAR DERECHO */
+/* SIDEBARS */
 
 .md-sidebar--secondary{
   display:none !important;
 }
 
-/* ocultar sidebar izquierdo cuando no hay submenu */
+@media screen and (min-width:76.25em){
 
-.md-sidebar--primary:has(.md-nav:empty),
-.md-sidebar--primary:not(:has(.md-nav__list)),
-.md-sidebar--primary:not(:has(a)){
-  display:none !important;
+  [data-md-page="index"] .md-sidebar--primary,
+  [data-md-page="libro"] .md-sidebar--primary,
+  [data-md-page="autor"] .md-sidebar--primary,
+  [data-md-page="contacto"] .md-sidebar--primary{
+    display:none !important;
+  }
+
+  [data-md-page="index"] .md-content,
+  [data-md-page="libro"] .md-content,
+  [data-md-page="autor"] .md-content,
+  [data-md-page="contacto"] .md-content{
+    margin-left:0 !important;
+  }
+
+  [data-md-page="index"] .md-content__inner,
+  [data-md-page="libro"] .md-content__inner,
+  [data-md-page="autor"] .md-content__inner,
+  [data-md-page="contacto"] .md-content__inner{
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
 }
 
 /* CONTENIDO */
