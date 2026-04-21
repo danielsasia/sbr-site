@@ -117,6 +117,9 @@ body,
 
 .md-tabs{
   display:block !important;
+  position:sticky !important;
+  top:84px !important;
+  z-index:4 !important;
   background:#060d1f !important;
   border-top:1px solid rgba(255,255,255,.05) !important;
   border-bottom:1px solid rgba(255,255,255,.05) !important;
