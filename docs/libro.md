@@ -1,5 +1,11 @@
 <!-- docs/libro.md -->
 
+---
+hide:
+  - navigation
+  - toc
+---
+
 # El libro
 
 ## Pensar como un Hacker, Defender como un Filósofo
