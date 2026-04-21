@@ -213,3 +213,25 @@ body,
   width: 0.95rem !important;
   height: 0.95rem !important;
 }
+
+/* CONTACTO */
+
+.contact-links {
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-links a {
+  display: block;
+  margin: 0.7rem 0;
+  color: #7b9fd4 !important;
+  text-decoration: none !important;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.92rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.contact-links a:hover {
+  color: #d9dce3 !important;
+}
