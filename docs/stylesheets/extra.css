@@ -141,7 +141,7 @@ html, body,
 }
 
 /* dejamos el menú izquierdo normal en internas */
-@media screen and (min-width: 76.25em){
+@media screen and (min-width:76.25em){
   [data-md-page="index"] .md-sidebar--primary{
     display:none !important;
   }
@@ -177,15 +177,24 @@ html, body,
   color:rgba(217,220,227,.86) !important;
 }
 
-.md-typeset h1{
+/* SOLO ocultar H1 en HOME */
+[data-md-page="index"] .md-typeset h1{
   display:none !important;
 }
 
+.md-typeset h1,
 .md-typeset h2,
 .md-typeset h3{
   font-family:'Playfair Display',serif !important;
   font-weight:400 !important;
   color:rgba(238,241,248,.96) !important;
+}
+
+.md-typeset h1{
+  font-size:1.55rem !important;
+  line-height:1.2 !important;
+  margin-top:0 !important;
+  margin-bottom:1.4rem !important;
 }
 
 .md-typeset h2{
