@@ -1,138 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono&display=swap');
-
-[data-md-color-scheme="slate"]{
-  --md-default-bg-color:#060d1f;
-  --md-default-fg-color:#d9dce3;
-  --md-default-fg-color--light:rgba(217,220,227,.60);
-  --md-default-fg-color--lighter:rgba(217,220,227,.35);
-  --md-typeset-color:#d9dce3;
-  --md-accent-fg-color:#7b9fd4;
-}
-
-html,body,
-.md-main,
-.md-container,
-.md-main__inner,
-.md-content,
-.md-sidebar,
-.md-sidebar__scrollwrap,
-.md-sidebar__inner{
-  background:#060d1f !important;
-}
-
-/* HEADER */
-
-.md-header{
-  background:#060d1f !important;
-  box-shadow:none !important;
-  border-bottom:1px solid rgba(255,255,255,.05) !important;
-}
-
-.md-header__inner{
-  min-height:84px !important;
-  align-items:center !important;
-}
-
-.md-header__button,
-.md-header__button *{
-  color:#d9dce3 !important;
-}
-
-.md-header__button.md-logo{
-  display:flex !important;
-  align-items:center !important;
-  margin-right:.55rem !important;
-  padding:0 !important;
-}
-
-.md-header__button.md-logo img,
-.md-header__button.md-logo svg{
-  display:block !important;
-  height:46px !important;
-  width:auto !important;
-  max-height:46px !important;
-}
-
-.md-header__title,
-.md-header__title *{
-  font-family:'DM Sans',sans-serif !important;
-  color:#8ea9dc !important;
-}
-
-.md-header__title{
-  display:flex !important;
-  flex-direction:column !important;
-  align-items:flex-start !important;
-  justify-content:center !important;
-  line-height:1 !important;
-  margin-left:0 !important;
-}
-
-.md-header__ellipsis{
-  max-width:none !important;
-}
-
-.md-header__topic:first-child{
-  font-size:24px !important;
-  font-weight:700 !important;
-  letter-spacing:.02em !important;
-  line-height:1.05 !important;
-}
-
-.md-header__title::after{
-  content:"MODELO DE DEFENSA DIGITAL";
-  display:block;
-  font-family:'DM Sans',sans-serif !important;
-  font-size:11px !important;
-  font-weight:500 !important;
-  letter-spacing:.10em !important;
-  color:rgba(217,220,227,.78) !important;
-  margin-top:8px !important;
-  line-height:1.1 !important;
-}
-
-/* BUSCADOR */
-
-.md-search__form{
-  height:2.35rem !important;
-}
-
-.md-search__input{
-  font-size:.86rem !important;
-}
-
-/* MENU SUPERIOR */
-
-.md-tabs{
-  display:block !important;
-  background:#060d1f !important;
-  border-top:1px solid rgba(255,255,255,.05) !important;
-  border-bottom:1px solid rgba(255,255,255,.05) !important;
-}
-
-.md-tabs__inner{
-  min-height:46px !important;
-}
-
-.md-tabs__item{
-  height:46px !important;
-  display:flex !important;
-  align-items:center !important;
-}
-
-.md-tabs__link{
-  font-family:'DM Sans',sans-serif !important;
-  font-size:13px !important;
-  font-weight:400 !important;
-  color:rgba(217,220,227,.70) !important;
-  margin-top:0 !important;
-}
-
-.md-tabs__link:hover,
-.md-tabs__link--active{
-  color:#8ea9dc !important;
-}
-
 /* SIDEBARS */
 
 .md-sidebar--secondary{
@@ -141,139 +6,53 @@ html,body,
 
 @media screen and (min-width:76.25em){
 
-  [data-md-page="index"] .md-sidebar--primary,
-  [data-md-page="libro"] .md-sidebar--primary,
-  [data-md-page="autor"] .md-sidebar--primary,
-  [data-md-page="contacto"] .md-sidebar--primary{
+  /* por defecto: SIN sidebar izquierdo */
+  .md-sidebar--primary{
     display:none !important;
+    width:0 !important;
+    min-width:0 !important;
   }
 
-  [data-md-page="index"] .md-content,
-  [data-md-page="libro"] .md-content,
-  [data-md-page="autor"] .md-content,
-  [data-md-page="contacto"] .md-content{
+  .md-main__inner{
+    display:block !important;
+  }
+
+  .md-content{
+    margin-left:0 !important;
+    max-width:1100px !important;
+  }
+
+  .md-content__inner{
+    margin-left:auto !important;
+    margin-right:auto !important;
+    padding-left:2rem !important;
+    padding-right:2rem !important;
+  }
+
+  /* SOLO mostrar sidebar izquierdo en secciones con submenú */
+  [data-md-page^="modelo/"] .md-sidebar--primary,
+  [data-md-page^="cuadernos/"] .md-sidebar--primary{
+    display:block !important;
+    width:auto !important;
+    min-width:auto !important;
+  }
+
+  [data-md-page^="modelo/"] .md-main__inner,
+  [data-md-page^="cuadernos/"] .md-main__inner{
+    display:grid !important;
+  }
+
+  [data-md-page^="modelo/"] .md-content,
+  [data-md-page^="cuadernos/"] .md-content{
+    max-width:none !important;
     margin-left:0 !important;
   }
 
-  [data-md-page="index"] .md-content__inner,
-  [data-md-page="libro"] .md-content__inner,
-  [data-md-page="autor"] .md-content__inner,
-  [data-md-page="contacto"] .md-content__inner{
-    margin-left:auto !important;
-    margin-right:auto !important;
+  [data-md-page^="modelo/"] .md-content__inner,
+  [data-md-page^="cuadernos/"] .md-content__inner{
+    margin-left:0 !important;
+    margin-right:0 !important;
+    padding-left:3rem !important;
+    padding-right:3rem !important;
   }
-}
-
-/* CONTENIDO */
-
-.md-grid{
-  max-width:1360px !important;
-}
-
-.md-main__inner{
-  margin-top:0 !important;
-}
-
-.md-content{
-  margin:0 auto !important;
-}
-
-.md-content__inner{
-  padding-left:3rem !important;
-  padding-right:3rem !important;
-  padding-top:1.2rem !important;
-  margin-left:auto !important;
-  margin-right:auto !important;
-}
-
-/* TIPOGRAFIA */
-
-.md-typeset{
-  font-family:'DM Sans',sans-serif !important;
-  font-size:.84rem !important;
-  font-weight:300 !important;
-  line-height:1.62 !important;
-  color:rgba(217,220,227,.86) !important;
-}
-
-/* ocultar solo H1 en home */
-
-[data-md-page="index"] .md-typeset h1{
-  display:none !important;
-}
-
-.md-typeset h1,
-.md-typeset h2,
-.md-typeset h3{
-  font-family:'Playfair Display',serif !important;
-  font-weight:400 !important;
-  color:rgba(238,241,248,.96) !important;
-}
-
-.md-typeset h1{
-  font-size:1.55rem !important;
-  line-height:1.2 !important;
-  margin-top:0 !important;
-  margin-bottom:1.2rem !important;
-}
-
-.md-typeset h2{
-  font-size:1.45rem !important;
-  line-height:1.2 !important;
-  margin-top:2rem !important;
-  margin-bottom:.9rem !important;
-}
-
-.md-typeset h3{
-  font-size:1.08rem !important;
-  line-height:1.25 !important;
-}
-
-.md-typeset p,
-.md-typeset li{
-  font-size:.84rem !important;
-  line-height:1.62 !important;
-}
-
-.md-typeset ul,
-.md-typeset ol{
-  margin-top:.45rem !important;
-  margin-bottom:.7rem !important;
-}
-
-/* HERO HOME */
-
-[data-md-page="index"] .md-typeset > p:first-of-type{
-  font-family:'Playfair Display',serif !important;
-  font-size:1.9rem !important;
-  font-weight:400 !important;
-  line-height:1.12 !important;
-  color:rgba(238,241,248,.97) !important;
-  margin-top:.15rem !important;
-  margin-bottom:.15rem !important;
-  max-width:980px !important;
-}
-
-[data-md-page="index"] .md-typeset > p:nth-of-type(2){
-  font-family:'Playfair Display',serif !important;
-  font-size:1.9rem !important;
-  font-style:italic !important;
-  font-weight:400 !important;
-  line-height:1.12 !important;
-  color:rgba(238,241,248,.92) !important;
-  margin-top:0 !important;
-  margin-bottom:1.8rem !important;
-  max-width:980px !important;
-}
-
-/* FOOTER */
-
-.md-footer,
-.md-footer-meta,
-.md-footer__inner{
-  background:#060d1f !important;
-}
-
-.md-social{
-  display:none !important;
 }
