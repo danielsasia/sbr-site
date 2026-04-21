@@ -1,16 +1,11 @@
----
-hide:
-  - navigation
-  - toc
----
-
 # Contacto
 
 Para conversar sobre el modelo, el libro o decisiones difíciles en organizaciones reales.
 
-[info@securitybyreason.org](mailto:info@securitybyreason.org){ .md-button .md-button--primary }
-
-[LinkedIn →](https://www.linkedin.com/in/danielsasia){ .md-button }
+<div class="contact-links">
+  <a href="mailto:info@securitybyreason.org">info@securitybyreason.org</a>
+  <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+</div>
 
 ---
 
