@@ -32,15 +32,17 @@ body,
 .md-header{
   position:sticky !important;
   top:0 !important;
-  z-index:30 !important;
+  z-index:40 !important;
   background:#060d1f !important;
   box-shadow:none !important;
   border-bottom:1px solid rgba(255,255,255,.05) !important;
+  pointer-events:auto !important;
 }
 
 .md-header__inner{
   min-height:84px !important;
   align-items:center !important;
+  pointer-events:auto !important;
 }
 
 .md-header__button,
@@ -69,6 +71,7 @@ body,
   line-height:1 !important;
   margin-left:0 !important;
   overflow:visible !important;
+  pointer-events:auto !important;
 }
 
 .md-header__ellipsis{
@@ -140,7 +143,7 @@ body,
 .md-tabs{
   position:sticky !important;
   top:84px !important;
-  z-index:29 !important;
+  z-index:39 !important;
   display:block !important;
   background:#060d1f !important;
   border-top:1px solid rgba(255,255,255,.05) !important;
@@ -148,6 +151,7 @@ body,
   opacity:1 !important;
   visibility:visible !important;
   transform:none !important;
+  pointer-events:auto !important;
 }
 
 .md-tabs__inner{
@@ -155,6 +159,7 @@ body,
   opacity:1 !important;
   visibility:visible !important;
   transform:none !important;
+  pointer-events:auto !important;
 }
 
 .md-tabs__item{
@@ -164,6 +169,7 @@ body,
   opacity:1 !important;
   visibility:visible !important;
   transform:none !important;
+  pointer-events:auto !important;
 }
 
 .md-tabs__link{
@@ -175,11 +181,23 @@ body,
   opacity:1 !important;
   visibility:visible !important;
   transform:none !important;
+  pointer-events:auto !important;
+  position:relative !important;
+  z-index:41 !important;
 }
 
 .md-tabs__link:hover,
 .md-tabs__link--active{
   color:#8ea9dc !important;
+}
+
+/* asegurar que el contenido no tape el menú sticky */
+.md-main,
+.md-main__inner,
+.md-content,
+.md-content__inner{
+  position:relative !important;
+  z-index:1 !important;
 }
 
 /* SIDEBARS */
