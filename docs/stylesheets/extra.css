@@ -9,7 +9,7 @@
   --md-accent-fg-color:#7b9fd4;
 }
 
-html, body,
+html,body,
 .md-main,
 .md-container,
 .md-main__inner,
@@ -76,7 +76,6 @@ html, body,
   font-size:24px !important;
   font-weight:700 !important;
   letter-spacing:.02em !important;
-  text-transform:none !important;
   line-height:1.05 !important;
 }
 
@@ -134,17 +133,18 @@ html, body,
   color:#8ea9dc !important;
 }
 
-/* SIDEBARS */
+/* SIDEBAR DERECHO */
 
 .md-sidebar--secondary{
   display:none !important;
 }
 
-/* dejamos el menú izquierdo normal en internas */
-@media screen and (min-width:76.25em){
-  [data-md-page="index"] .md-sidebar--primary{
-    display:none !important;
-  }
+/* ocultar sidebar izquierdo cuando no hay submenu */
+
+.md-sidebar--primary:has(.md-nav:empty),
+.md-sidebar--primary:not(:has(.md-nav__list)),
+.md-sidebar--primary:not(:has(a)){
+  display:none !important;
 }
 
 /* CONTENIDO */
@@ -164,20 +164,23 @@ html, body,
 .md-content__inner{
   padding-left:3rem !important;
   padding-right:3rem !important;
-  padding-top:3rem !important;
+  padding-top:1.2rem !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
 }
 
-/* TIPOGRAFÍA */
+/* TIPOGRAFIA */
 
 .md-typeset{
   font-family:'DM Sans',sans-serif !important;
-  font-size:.92rem !important;
+  font-size:.84rem !important;
   font-weight:300 !important;
-  line-height:1.7 !important;
+  line-height:1.62 !important;
   color:rgba(217,220,227,.86) !important;
 }
 
-/* SOLO ocultar H1 en HOME */
+/* ocultar solo H1 en home */
+
 [data-md-page="index"] .md-typeset h1{
   display:none !important;
 }
@@ -194,49 +197,55 @@ html, body,
   font-size:1.55rem !important;
   line-height:1.2 !important;
   margin-top:0 !important;
-  margin-bottom:1.4rem !important;
+  margin-bottom:1.2rem !important;
 }
 
 .md-typeset h2{
-  font-size:1.55rem !important;
+  font-size:1.45rem !important;
   line-height:1.2 !important;
-  margin-top:2.5rem !important;
-  margin-bottom:1rem !important;
+  margin-top:2rem !important;
+  margin-bottom:.9rem !important;
 }
 
 .md-typeset h3{
-  font-size:1.15rem !important;
+  font-size:1.08rem !important;
   line-height:1.25 !important;
 }
 
 .md-typeset p,
 .md-typeset li{
-  font-size:.92rem !important;
-  line-height:1.7 !important;
+  font-size:.84rem !important;
+  line-height:1.62 !important;
+}
+
+.md-typeset ul,
+.md-typeset ol{
+  margin-top:.45rem !important;
+  margin-bottom:.7rem !important;
 }
 
 /* HERO HOME */
 
 [data-md-page="index"] .md-typeset > p:first-of-type{
   font-family:'Playfair Display',serif !important;
-  font-size:2rem !important;
+  font-size:1.9rem !important;
   font-weight:400 !important;
   line-height:1.12 !important;
   color:rgba(238,241,248,.97) !important;
-  margin-top:.1rem !important;
+  margin-top:.15rem !important;
   margin-bottom:.15rem !important;
   max-width:980px !important;
 }
 
 [data-md-page="index"] .md-typeset > p:nth-of-type(2){
   font-family:'Playfair Display',serif !important;
-  font-size:2rem !important;
+  font-size:1.9rem !important;
   font-style:italic !important;
   font-weight:400 !important;
   line-height:1.12 !important;
   color:rgba(238,241,248,.92) !important;
   margin-top:0 !important;
-  margin-bottom:2rem !important;
+  margin-bottom:1.8rem !important;
   max-width:980px !important;
 }
 
