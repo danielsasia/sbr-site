@@ -191,6 +191,13 @@ body,
   color:#8ea9dc !important;
 }
 
+/* MOBILE/TABLET: ocultar tabs horizontales para dejar hamburguesa nativa */
+@media screen and (max-width:76.24em){
+  .md-tabs{
+    display:none !important;
+  }
+}
+
 /* asegurar que el contenido no tape el menú sticky */
 .md-main,
 .md-main__inner,
