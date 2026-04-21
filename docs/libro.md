@@ -1,5 +1,3 @@
-<!-- docs/libro.md -->
-
 ---
 hide:
   - navigation
