@@ -329,38 +329,79 @@ body,
   display:none !important;
 }
 
-/* MOBILE: menú hamburguesa clickeable */
+/* MOBILE / TABLET */
 @media screen and (max-width:76.24em){
 
+  /* no mostrar tabs horizontales */
+  .md-tabs{
+    display:none !important;
+  }
+
+  /* volver al comportamiento nativo del header en mobile */
   .md-header{
+    position:sticky !important;
+    top:0 !important;
     z-index:30 !important;
   }
 
+  /* NO tocar el drawer nativo */
   .md-sidebar{
-    pointer-events:none !important;
+    pointer-events:auto !important;
   }
 
   .md-sidebar--primary{
     position:fixed !important;
     top:0 !important;
     left:0 !important;
-    z-index:70 !important;
+    width:12.1rem !important;
+    max-width:80vw !important;
+    z-index:50 !important;
     pointer-events:auto !important;
   }
 
-  .md-sidebar--scrollwrap,
   .md-sidebar__scrollwrap,
   .md-sidebar__inner,
   .md-nav,
   .md-nav--primary,
-  .md-nav--primary .md-nav__list,
-  .md-nav--primary .md-nav__item,
-  .md-nav--primary .md-nav__link{
+  .md-nav__list,
+  .md-nav__item,
+  .md-nav__link{
     pointer-events:auto !important;
   }
 
   .md-overlay{
-    z-index:60 !important;
+    z-index:49 !important;
     pointer-events:auto !important;
+  }
+
+  /* evitar que el contenido se meta debajo del header */
+  .md-content__inner{
+    padding-left:1.2rem !important;
+    padding-right:1.2rem !important;
+    padding-top:1rem !important;
+  }
+
+  /* branding más compacto en celular */
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg{
+    height:34px !important;
+    max-height:34px !important;
+  }
+
+  .md-header__topic:first-child{
+    font-size:18px !important;
+  }
+
+  .md-header__topic:first-child::after{
+    font-size:9px !important;
+    margin-top:4px !important;
+  }
+
+  /* hero home más razonable en mobile */
+  [data-md-page="index"] .md-typeset > p:first-of-type,
+  [data-md-page="index"] .md-typeset > p:nth-of-type(2){
+    font-size:1.35rem !important;
+    line-height:1.15 !important;
+    max-width:none !important;
   }
 }
