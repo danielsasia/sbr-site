@@ -38,10 +38,10 @@ nav:
       - Cómo funciona: modelo/como-funciona.md
       - Madurez institucional: modelo/madurez.md
   - El libro:
-    - La obra: libro/index.md
-    - Índice comentado: libro/indice.md
-    - Por qué es diferente: libro/diferente.md
-    - Conseguirlo: libro/conseguir.md
+      - La obra: libro/index.md
+      - Índice comentado: libro/indice.md
+      - Por qué es diferente: libro/diferente.md
+      - Conseguirlo: libro/conseguir.md
   - Cuadernos SBR:
       - Introducción: cuadernos/index.md
       - Cuando compliance reemplaza criterio: cuadernos/compliance-vs-criterio.md
