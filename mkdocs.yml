@@ -37,7 +37,11 @@ nav:
       - Los cinco dominios: modelo/dominios.md
       - Cómo funciona: modelo/como-funciona.md
       - Madurez institucional: modelo/madurez.md
-  - El libro: libro.md
+  - El libro:
+    - La obra: libro.md
+    - Índice comentado: libro/indice.md
+    - Por qué es diferente: libro/diferente.md
+    - Conseguirlo: libro/comprar.md
   - Cuadernos SBR:
       - Introducción: cuadernos/index.md
       - Cuando compliance reemplaza criterio: cuadernos/compliance-vs-criterio.md
