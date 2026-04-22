@@ -389,3 +389,26 @@ body,
     max-width:none !important;
   }
 }
+
+/* PREMIUM TEXT CTA */
+
+.md-typeset a.text-cta {
+  display: inline-block;
+  margin-top: .35rem;
+  color: #7ea2ff;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: .01em;
+  text-decoration: none;
+  transition: all .18s ease;
+}
+
+.md-typeset a.text-cta:hover {
+  color: #a9c0ff;
+  transform: translateX(3px);
+}
+
+.md-typeset a.text-cta::after {
+  content: " ↗";
+  font-weight: 500;
+}
