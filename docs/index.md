@@ -8,11 +8,11 @@ title: ""
 Una defensa sólida resiste incidentes.  
 *Una defensa legítima resiste preguntas.*
 
-En una revisión institucional, un organismo de control formuló al equipo directivo de un ministerio una pregunta que nadie esperaba. No era técnica. No era sobre incidentes ni sobre brechas. Era simple y decisiva: ¿por qué eligieron este mecanismo de monitoreo y no otro?
+En una revisión institucional, un organismo de control formuló al equipo directivo de un ministerio una pregunta que nadie esperaba. No era técnica. No era sobre incidentes ni sobre brechas. Era simple y decisiva: **¿por qué eligieron este mecanismo de monitoreo y no otro?**
 
 El ministerio tenía tecnología avanzada, controles implementados y procesos auditados. Había superado revisiones formales. Pero nadie pudo responder con claridad sin depender de una sola persona.
 
-La crisis no fue técnica. Fue institucional.
+**La crisis no fue técnica. Fue institucional.**
 
 ---
 
@@ -22,11 +22,11 @@ Las organizaciones invierten en herramientas, controles y cumplimiento. Todo eso
 
 - ¿Qué protegemos primero?
 - ¿Qué riesgo aceptamos realmente?
-- ¿Quién decide bajo qué autoridad?
+- ¿Quién decide y con qué autoridad?
 - ¿Hasta dónde intervenir?
 - ¿Cómo justificar una decisión crítica cuando lleguen las consecuencias?
 
-Security By Reason® nace exactamente en ese punto.
+**Security By Reason® nace exactamente en ese punto.**
 
 ---
 
@@ -43,7 +43,7 @@ Integra:
 - operación bajo fricción  
 - transformación tecnológica
 
-No reemplaza estándares ni controles. Los vuelve más claros, más defendibles y menos arbitrarios cuando la técnica sola ya no alcanza.
+No reemplaza estándares ni controles. **Los vuelve más claros, más defendibles y menos arbitrarios cuando la técnica sola ya no alcanza.**
 
 ---
 
@@ -73,5 +73,5 @@ Más autoridad.
 Menos improvisación.  
 Mejores decisiones de defensa digital.
 
-[Conocer el modelo →](modelo/intro.md){ .md-button .md-button--primary }  
-[Descubrir el libro →](libro.md){ .md-button }
+[Conocer el modelo ↗](modelo/intro.md){ .md-button .md-button--primary }  
+[Descubrir el libro ↗](libro.md){ .md-button }
