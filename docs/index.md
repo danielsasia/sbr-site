@@ -73,5 +73,6 @@ Más autoridad.
 Menos improvisación.  
 Mejores decisiones de defensa digital.
 
-[Conocer el modelo ↗](modelo/intro.md){ .md-button .md-button--primary }  
-[Descubrir el libro ↗](libro.md){ .md-button }
+[Conocer el modelo](modelo/intro.md){ .text-cta }
+
+[Descubrir el libro](libro/){ .text-cta }
