@@ -328,3 +328,36 @@ body,
 .md-social{
   display:none !important;
 }
+
+/* MOBILE: el menú hamburguesa debe quedar por encima y ser clickable */
+@media screen and (max-width:76.24em){
+
+  /* ocultar tabs horizontales en mobile */
+  .md-tabs{
+    display:none !important;
+  }
+
+  /* no dejar que el header sticky tape el drawer */
+  .md-header{
+    z-index:30 !important;
+  }
+
+  /* drawer del menú por encima del header */
+  .md-sidebar--primary{
+    z-index:60 !important;
+    pointer-events:auto !important;
+  }
+
+  .md-sidebar--scrollwrap,
+  .md-nav--primary,
+  .md-nav--primary .md-nav__list,
+  .md-nav--primary .md-nav__item,
+  .md-nav--primary .md-nav__link{
+    pointer-events:auto !important;
+  }
+
+  /* overlay del menú también por encima */
+  .md-overlay{
+    z-index:59 !important;
+  }
+}
