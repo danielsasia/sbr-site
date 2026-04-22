@@ -138,7 +138,7 @@ body,
   font-size:.86rem !important;
 }
 
-/* MENU SUPERIOR */
+/* MENU SUPERIOR DESKTOP */
 
 .md-tabs{
   position:sticky !important;
@@ -189,15 +189,6 @@ body,
 .md-tabs__link:hover,
 .md-tabs__link--active{
   color:#8ea9dc !important;
-}
-
-/* MOBILE/TABLET: ocultar tabs horizontales para dejar hamburguesa nativa */
-@media screen and (max-width:76.24em){
-  .md-tabs{
-    display:none !important;
-    position:static !important;
-    top:auto !important;
-  }
 }
 
 /* asegurar que el contenido no tape el menú sticky */
@@ -331,9 +322,20 @@ body,
   display:none !important;
 }
 
-/* MOBILE / TABLET */
+/* MOBILE / TABLET - UNICO BLOQUE */
+
 @media screen and (max-width:76.24em){
 
+  /* ocultar tabs horizontales y usar hamburguesa nativa */
+  .md-tabs{
+    display:none !important;
+    position:static !important;
+    top:auto !important;
+    z-index:auto !important;
+    pointer-events:none !important;
+  }
+
+  /* header más compacto */
   .md-header{
     position:sticky !important;
     top:0 !important;
@@ -359,21 +361,7 @@ body,
     margin-top:3px !important;
   }
 
-  /* NO tocar drawer nativo */
-  .md-sidebar,
-  .md-sidebar--primary,
-  .md-sidebar__scrollwrap,
-  .md-sidebar__inner,
-  .md-overlay{
-    position:unset !important;
-    top:auto !important;
-    left:auto !important;
-    width:auto !important;
-    max-width:none !important;
-    z-index:auto !important;
-    pointer-events:auto !important;
-  }
-
+  /* NO tocar drawer ni overlay nativos de Material */
   .md-content__inner{
     padding-left:1rem !important;
     padding-right:1rem !important;
