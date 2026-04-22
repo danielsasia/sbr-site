@@ -8,10 +8,9 @@ hide:
 
 Para conversar sobre el modelo, el libro o decisiones difíciles en organizaciones reales.
 
-<div class="contact-links">
-  <a href="mailto:info@securitybyreason.org">info@securitybyreason.org</a>
-  <a href="https://www.linkedin.com/in/danielsasia/" target="_blank" rel="noopener">Daniel Sasia en LinkedIn</a>
-</div>
+[info@securitybyreason.org](mailto:info@securitybyreason.org){ .text-cta }
+
+[Daniel Sasia en LinkedIn](https://www.linkedin.com/in/danielsasia/){ .text-cta }
 
 ---
 
