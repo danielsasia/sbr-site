@@ -335,11 +335,11 @@ body,
     pointer-events:none !important;
   }
 
-  /* header más compacto */
+  /* desactivar sticky en mobile para no tapar el menú hamburguesa */
   .md-header{
-    position:sticky !important;
-    top:0 !important;
-    z-index:30 !important;
+    position:relative !important;
+    top:auto !important;
+    z-index:auto !important;
   }
 
   .md-header__inner{
@@ -362,6 +362,15 @@ body,
   }
 
   /* NO tocar drawer ni overlay nativos de Material */
+
+  .md-main,
+  .md-main__inner,
+  .md-content,
+  .md-content__inner{
+    position:static !important;
+    z-index:auto !important;
+  }
+
   .md-content__inner{
     padding-left:1rem !important;
     padding-right:1rem !important;
