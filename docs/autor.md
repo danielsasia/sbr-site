@@ -18,6 +18,7 @@ Hoy trabaja para convertir esa experiencia en método, ayudando a organizaciones
 
 *La tensión entre actuar rápido y actuar con criterio no tiene solución definitiva. Tiene práctica.*
 
+---
+
 [Ver perfil profesional en LinkedIn](https://www.linkedin.com/in/danielsasia/){ .text-cta }
 
----
