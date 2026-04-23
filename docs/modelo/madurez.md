@@ -24,3 +24,7 @@ Una organización madura no depende de héroes individuales para resolver lo cr�
 - dependencia excesiva de personas clave
 
 Security By Reason® permite medir si el criterio pertenece a la organización o solo a individuos.
+
+[Qué es Security By Reason](intro.md){ .text-cta }
+
+[Los cinco dominios](dominios.md){ .text-cta }
