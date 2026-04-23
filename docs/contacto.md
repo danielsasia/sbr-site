@@ -17,5 +17,3 @@ Para conversar sobre el modelo, el libro o decisiones difíciles en organizacion
 [info@securitybyreason.org](mailto:info@securitybyreason.org){ .text-cta }
 
 [Daniel Sasia en LinkedIn](https://www.linkedin.com/in/danielsasia/){ .text-cta }
-
-*Si llegaste hasta acá, probablemente ya entendiste que algunas decisiones no se resuelven solo con técnica.*
