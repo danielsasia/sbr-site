@@ -18,7 +18,7 @@ El ministerio tenía tecnología avanzada, controles implementados y procesos au
 
 ## El problema que ningún estándar resuelve
 
-Las organizaciones invierten en herramientas, controles y cumplimiento. Todo eso sigue siendo indispensable. Pero ninguna herramienta responde por sí sola preguntas como estas:
+Las organizaciones invierten en herramientas, controles y cumplimiento. Son indispensables. Pero ninguno responde por sí solo preguntas como estas:
 
 - ¿Qué protegemos primero?
 - ¿Qué riesgo aceptamos realmente?
