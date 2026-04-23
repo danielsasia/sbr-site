@@ -72,8 +72,10 @@ Más criterio.
 Más autoridad.  
 Menos improvisación.
 
-<span class="hero-closing">Mejores decisiones de defensa digital.</span>
+**Mejores decisiones de defensa digital.**
 
 ---
 
 [Conocer el modelo](modelo/intro.md){ .text-cta }
+
+[Descubrir el libro](libro/){ .text-cta }
