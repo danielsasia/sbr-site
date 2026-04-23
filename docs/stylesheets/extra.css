@@ -413,3 +413,15 @@ body,
   content:" ↗";
   font-weight:400;
 }
+
+/* HERO CLOSING LINE */
+
+.hero-closing{
+  display:block;
+  margin-top:.10rem;
+  margin-bottom:0;
+  font-size:1.22em;
+  font-weight:700;
+  line-height:1.22;
+  color:rgba(238,241,248,.96);
+}
