@@ -51,7 +51,9 @@ Cuando una evolución tecnológica u organizacional compromete capacidades futur
 **Pregunta guía:**  
 ¿Qué futuro estamos comprometiendo con esta decisión?
 
-<span class="hero-closing">Transformar sin criterio también destruye valor.</span>
+---
+
+<span class="hero-closing">No toda decisión se resuelve igual. Por eso no todo criterio sirve para cualquier tensión.</span>
 
 ---
 
