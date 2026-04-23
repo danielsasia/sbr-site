@@ -52,5 +52,6 @@ Es una obra para quienes no solo gestionan tecnología.
 
 ---
 
-[Explorar el modelo ↗](../modelo/intro.md){ .md-button .md-button--primary }  
-[Ver índice del libro ↗](indice.md){ .md-button }
+[Ver índice comentado](indice.md){ .text-cta }
+
+[Por qué es diferente](diferente.md){ .text-cta }
