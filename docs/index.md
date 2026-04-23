@@ -68,10 +68,16 @@ No son áreas ni etapas lineales. Son cinco formas de leer qué tensión real es
 
 ## Resultado
 
+## Resultado
+
 Más criterio.  
 Más autoridad.  
-Menos improvisación.
+Menos improvisación.  
 ### Mejores decisiones de defensa digital.
+
+[Conocer el modelo](modelo/intro.md){ .text-cta }
+
+[Descubrir el libro](libro/){ .text-cta }
 
 [Conocer el modelo](modelo/intro.md){ .text-cta }
 
