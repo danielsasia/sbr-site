@@ -50,3 +50,7 @@ Cuando una evolución tecnológica u organizacional compromete capacidades futur
 
 **Pregunta guía:**  
 ¿Qué futuro estamos comprometiendo con esta decisión?
+
+[Cómo funciona](como-funciona.md){ .text-cta }
+
+[Madurez institucional](madurez.md){ .text-cta }
