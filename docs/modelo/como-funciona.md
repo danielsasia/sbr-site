@@ -51,6 +51,10 @@ Más claridad.
 Más consistencia.  
 Mejores decisiones bajo presión.
 
+<span class="hero-closing">Cuando mejora el criterio, también mejora la defensa.</span>
+
+---
+
 [Madurez institucional](madurez.md){ .text-cta }
 
 [Qué es Security By Reason](intro.md){ .text-cta }
