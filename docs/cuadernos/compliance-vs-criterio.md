@@ -88,6 +88,4 @@ Security By Reason® parte de una premisa simple: una defensa sólida no se agot
 Compliance puede ordenar una organización.  
 Solo el criterio puede sostenerla.
 
----
-
-*Las instituciones no se vuelven frágiles cuando les faltan controles. Se vuelven frágiles cuando nadie puede explicar por qué eligieron los que tienen.*
+<span class="hero-closing">Las instituciones se vuelven frágiles cuando nadie puede explicar por qué eligió lo que eligió.</span>
