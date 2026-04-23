@@ -75,9 +75,6 @@ Más autoridad.
 Menos improvisación.  
 ### Mejores decisiones de defensa digital.
 
-[Conocer el modelo](modelo/intro.md){ .text-cta }
-
-[Descubrir el libro](libro/){ .text-cta }
 
 [Conocer el modelo](modelo/intro.md){ .text-cta }
 
