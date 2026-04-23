@@ -25,7 +25,9 @@ Una organización madura no depende de héroes individuales para resolver lo cr�
 
 Security By Reason® permite medir si el criterio pertenece a la organización o solo a individuos.
 
-<span class="hero-closing">Cuando el criterio depende de una persona, la organización ya es frágil.</span>
+---
+
+<span class="hero-closing">Cuando una persona concentra el criterio, la vulnerabilidad ya es sistémica.</span>
 
 ---
 
