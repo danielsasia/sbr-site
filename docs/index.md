@@ -70,9 +70,8 @@ No son áreas ni etapas lineales. Son cinco formas de leer qué tensión real es
 
 Más criterio.  
 Más autoridad.  
-Menos improvisación.
-
-**Mejores decisiones de defensa digital.**
+Menos improvisación.  
+<span class="hero-closing">Mejores decisiones de defensa digital.</span>
 
 ---
 
