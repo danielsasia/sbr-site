@@ -6,13 +6,15 @@ hide:
 
 # Sobre el autor
 
-Durante más de veinte años, Daniel Sasia trabajó en organizaciones donde una mala decisión tecnológica nunca era solo tecnológica. Lideró tecnología, seguridad y transformación en entornos de alta exigencia operativa e institucional, donde cada decisión debía sostenerse frente a presión real, consecuencias concretas y preguntas legítimas.
+# Sobre el autor
 
-Security By Reason® nació de una incomodidad que tardó años en nombrar con precisión: que las organizaciones más sólidas no eran las que tenían más controles, sino las que podían explicar por qué habían elegido los que tenían.
+Durante una extensa trayectoria profesional, Daniel Sasia lideró tecnología, seguridad y transformación en organizaciones donde las decisiones críticas nunca fueron solo tecnológicas. Actuó en entornos de alta exigencia operativa e institucional, donde cada decisión debía sostenerse frente a presión real, consecuencias concretas y preguntas legítimas.
 
-Parece una diferencia menor. Hasta que llegan las preguntas: bajo presión, con información incompleta y frente a alguien que tiene derecho a exigir una respuesta mejor que “porque el estándar lo dice”.
+Security By Reason® nació de una convicción forjada en esa experiencia: las organizaciones más sólidas no son las que acumulan más controles, sino las que pueden explicar con criterio por qué eligieron los que implementaron.
 
-Hoy trabaja para convertir esa experiencia en método, ayudando a organizaciones a tomar decisiones más defendibles, más revisables y menos arbitrarias cuando la técnica ya no alcanza.
+Parece una diferencia menor. Deja de serlo cuando llegan las preguntas: bajo presión, con información incompleta y frente a quienes tienen derecho a exigir una respuesta que exceda la mera invocación de la normativa vigente.
+
+Hoy transforma esa trayectoria en método, acompañando a organizaciones que buscan mejores decisiones, capacidades tecnológicas más sólidas y una defensa digital más resiliente cuando la técnica, por sí sola, ya no alcanza.
 
 ---
 
