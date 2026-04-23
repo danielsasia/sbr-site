@@ -98,9 +98,11 @@ Cada capítulo incluye:
 
 ## Resultado
 
-Una obra diseñada para quienes necesitan algo más que controles:
+Una obra diseñada para quienes necesitan algo más que controles.
 
-**criterio para decidir cuando las consecuencias importan.**
+<span class="hero-closing">Criterio para decidir cuando las consecuencias importan.</span>
+
+---
 
 [Por qué es diferente](diferente.md){ .text-cta }
 
