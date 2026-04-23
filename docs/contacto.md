@@ -8,9 +8,9 @@ hide:
 
 Para conversar sobre el modelo, el libro o decisiones difíciles en organizaciones reales.
 
-[info@securitybyreason.org](mailto:info@securitybyreason.org){ .text-cta }
+[info@securitybyreason.org](mailto:info@securitybyreason.org)
 
-[Daniel Sasia en LinkedIn](https://www.linkedin.com/in/danielsasia/){ .text-cta }
+[Daniel Sasia en LinkedIn](https://www.linkedin.com/in/danielsasia/)
 
 ---
 
