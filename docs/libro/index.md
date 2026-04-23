@@ -51,6 +51,8 @@ Es una obra para quienes no solo gestionan tecnología.
 - Profesionales que deciden bajo presión
 
 ---
+La seguridad no se pierde en los sistemas. Se pierde en una mala decisión.
+---
 
 [Ver índice comentado](indice.md){ .text-cta }
 
