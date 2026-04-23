@@ -113,7 +113,9 @@ Eso le da una lógica acumulativa: no se limita a ofrecer ideas sueltas, sino qu
 
 Este libro es diferente porque no enseña solamente a proteger sistemas.
 
-**Enseña a defender decisiones.**
+<span class="hero-closing">Enseña a defender decisiones.</span>
+
+---
 
 [Ver índice comentado](indice.md){ .text-cta }
 
