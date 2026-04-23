@@ -51,6 +51,10 @@ Cuando una evolución tecnológica u organizacional compromete capacidades futur
 **Pregunta guía:**  
 ¿Qué futuro estamos comprometiendo con esta decisión?
 
+<span class="hero-closing">Transformar sin criterio también destruye valor.</span>
+
+---
+
 [Cómo funciona](como-funciona.md){ .text-cta }
 
 [Madurez institucional](madurez.md){ .text-cta }
