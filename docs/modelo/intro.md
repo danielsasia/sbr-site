@@ -47,5 +47,6 @@ No toda decisión se resuelve igual. Gobernar no es operar. Anticipar no es tran
 - menos arbitrariedad  
 - mejor alineación entre negocio, tecnología y seguridad
 
-[Los cinco dominios →](dominios.md)  
-[Cómo funciona →](como-funciona.md)
+[Los cinco dominios](dominios.md){ .text-cta }
+
+[Cómo funciona](como-funciona.md){ .text-cta }
