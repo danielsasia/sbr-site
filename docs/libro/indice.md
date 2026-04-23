@@ -100,6 +100,8 @@ Cada capítulo incluye:
 
 Una obra diseñada para quienes necesitan algo más que controles.
 
+---
+
 <span class="hero-closing">Criterio para decidir cuando las consecuencias importan.</span>
 
 ---
