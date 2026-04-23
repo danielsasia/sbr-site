@@ -50,8 +50,8 @@ Es una obra para quienes no solo gestionan tecnología.
 - Líderes de transformación  
 - Profesionales que deciden bajo presión
 
----
-La seguridad no se pierde en los sistemas. Se pierde en una mala decisión.
+<span class="hero-closing">La seguridad no se pierde en los sistemas. Se pierde en una mala decisión.</span>
+
 ---
 
 [Ver índice comentado](indice.md){ .text-cta }
