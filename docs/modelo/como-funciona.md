@@ -51,7 +51,7 @@ Más claridad.
 Más consistencia.  
 Mejores decisiones bajo presión.
 
-<span class="hero-closing">Cuando mejora el criterio, también mejora la defensa.</span>
+<span class="hero-closing">Cuando mejora el criterio, se fortalece la defensa digital.</span>
 
 ---
 
