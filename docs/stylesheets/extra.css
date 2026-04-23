@@ -412,3 +412,25 @@ body,
   content: " ↗";
   font-weight: 500;
 }
+
+/* SECONDARY TEXT LINK */
+
+.md-typeset a.text-link{
+  display:inline-block;
+  margin-top:.2rem;
+  color:#7ea2ff;
+  font-weight:500;
+  font-size:.84rem;
+  text-decoration:none;
+  transition:all .18s ease;
+}
+
+.md-typeset a.text-link:hover{
+  color:#a9c0ff;
+  transform:translateX(2px);
+}
+
+.md-typeset a.text-link::after{
+  content:" ↗";
+  font-weight:500;
+}
