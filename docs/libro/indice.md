@@ -102,5 +102,6 @@ Una obra diseñada para quienes necesitan algo más que controles:
 
 **criterio para decidir cuando las consecuencias importan.**
 
-[Conocer la obra ↗](../libro.md){ .md-button .md-button--primary }  
-[Explorar el modelo ↗](../modelo/intro.md){ .md-button }
+[Por qué es diferente](diferente.md){ .text-cta }
+
+[Conseguirlo](conseguir.md){ .text-cta }
