@@ -47,6 +47,10 @@ No toda decisión se resuelve igual. Gobernar no es operar. Anticipar no es tran
 - menos arbitrariedad  
 - mejor alineación entre negocio, tecnología y seguridad
 
+<span class="hero-closing">Cuando la decisión mejora, también mejora la organización.</span>
+
+---
+
 [Los cinco dominios](dominios.md){ .text-cta }
 
 [Cómo funciona](como-funciona.md){ .text-cta }
