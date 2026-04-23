@@ -41,6 +41,10 @@ La información de disponibilidad, formato y acceso estará publicada aquí.
 
 Mientras tanto, si querés recibir novedades sobre el libro o consultar por disponibilidad, podés hacerlo desde la sección de contacto.
 
+<span class="hero-closing">Recibir información antes también es una forma de anticiparse.</span>
+
+---
+
 [Ir a Contacto](../contacto.md){ .text-cta }
 
 [Volver a La obra](index.md){ .text-cta }
