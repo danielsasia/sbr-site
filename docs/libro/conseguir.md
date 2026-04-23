@@ -41,5 +41,6 @@ La información de disponibilidad, formato y acceso estará publicada aquí.
 
 Mientras tanto, si querés recibir novedades sobre el libro o consultar por disponibilidad, podés hacerlo desde la sección de contacto.
 
-[Ir a Contacto ↗](../contacto.md){ .md-button .md-button--primary }  
-[Volver a La obra ↗](index.md){ .md-button }
+[Ir a Contacto](../contacto.md){ .text-cta }
+
+[Volver a La obra](index.md){ .text-cta }
