@@ -62,16 +62,19 @@ No son áreas ni etapas lineales. Son cinco formas de leer qué tensión real es
 - CIO / CTO  
 - CISO  
 - Riesgo / Auditoría  
-- líderes responsables de decisiones críticas
+- Líderes responsables de decisiones críticas
 
 ---
 
 ## Resultado
 
+## Resultado
+
 Más criterio.  
 Más autoridad.  
-Menos improvisación.  
-Mejores decisiones de defensa digital.
+Menos improvisación.
+
+### Mejores decisiones de defensa digital.
 
 [Conocer el modelo](modelo/intro.md){ .text-cta }
 
