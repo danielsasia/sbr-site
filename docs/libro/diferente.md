@@ -115,5 +115,6 @@ Este libro es diferente porque no enseña solamente a proteger sistemas.
 
 **Enseña a defender decisiones.**
 
-[Volver a La obra ↗](index.md){ .md-button .md-button--primary }  
-[Ver índice comentado ↗](indice.md){ .md-button }
+[Ver índice comentado](indice.md){ .text-cta }
+
+[Conseguirlo](conseguir.md){ .text-cta }
