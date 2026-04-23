@@ -16,10 +16,8 @@ Hoy trabaja para convertir esa experiencia en método, ayudando a organizaciones
 
 ---
 
-<span class="hero-closing">La autoridad también se construye tomando mejores decisiones.</span>
+<span class="hero-closing">La tensión entre actuar rápido y actuar con criterio no tiene solución definitiva. Tiene práctica.</span>
 
 ---
 
 [Ver perfil profesional en LinkedIn](https://www.linkedin.com/in/danielsasia/){ .text-cta }
-
-*La tensión entre actuar rápido y actuar con criterio no tiene solución definitiva. Tiene práctica.*
