@@ -51,4 +51,6 @@ Más claridad.
 Más consistencia.  
 Mejores decisiones bajo presión.
 
-[Madurez institucional →](madurez.md)
+[Madurez institucional](madurez.md){ .text-cta }
+
+[Qué es Security By Reason](intro.md){ .text-cta }
