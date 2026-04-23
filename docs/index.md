@@ -68,8 +68,6 @@ No son áreas ni etapas lineales. Son cinco formas de leer qué tensión real es
 
 ## Resultado
 
-## Resultado
-
 Más criterio.  
 Más autoridad.  
 Menos improvisación.
