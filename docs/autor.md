@@ -14,7 +14,7 @@ Parece una diferencia menor. Hasta que llegan las preguntas: bajo presión, con 
 
 Hoy trabaja para convertir esa experiencia en método, ayudando a organizaciones a tomar decisiones más defendibles, más revisables y menos arbitrarias cuando la técnica ya no alcanza.
 
-[Ver perfil profesional en LinkedIn](https://www.linkedin.com/in/danielsasia/){ .text-link }
+[Ver perfil profesional en LinkedIn](https://www.linkedin.com/in/danielsasia/){ .text-cta }
 
 ---
 
