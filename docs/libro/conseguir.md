@@ -43,7 +43,7 @@ Mientras tanto, si querés recibir novedades sobre el libro o consultar por disp
 
 ---
 
-<span class="hero-closing">Recibir información antes también es una forma de anticiparse.</span>
+<span class="hero-closing">Estar informado antes también es una forma de anticiparse.</span>
 
 ---
 
