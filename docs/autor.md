@@ -6,8 +6,6 @@ hide:
 
 # Sobre el autor
 
-# Sobre el autor
-
 Durante una extensa trayectoria profesional, Daniel Sasia lideró tecnología, seguridad y transformación en organizaciones donde las decisiones críticas nunca fueron solo tecnológicas. Actuó en entornos de alta exigencia operativa e institucional, donde cada decisión debía sostenerse frente a presión real, consecuencias concretas y preguntas legítimas.
 
 Security By Reason® nació de una convicción forjada en esa experiencia: las organizaciones más sólidas no son las que acumulan más controles, sino las que pueden explicar con criterio por qué eligieron los que implementaron.
